@@ -167,9 +167,17 @@ csat-prediction-project/
 
 📊 Streamlit App Overview
 
+  Demo Input
+  
   ![Demo Input](images/first.png)
   
+
+  Shap Analysis Chart
+  
   ![Shap Analysis Chart](images/shap.png)
+
+
+  Feature Importance Chart
   
   ![Feature Importance Chart](images/chart.png)
 
