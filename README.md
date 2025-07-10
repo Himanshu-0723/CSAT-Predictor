@@ -70,72 +70,82 @@ csat-prediction-project/
 ⚙️ Workflow
 
   ✅ Data cleaning & preprocessing
+  
   ✅ Feature engineering (sentiment score, time-based buckets)
+  
   ✅ Encoding categorical variables
+  
   ✅ Handling class imbalance with SMOTE
+  
   ✅ Feature selection using RandomForestClassifier
+  
   ✅ Scaling numerical features
+  
   ✅ Training multiple models
+  
   ✅ Hyperparameter tuning with GridSearchCV
+  
   ✅ Model interpretation with SHAP
+  
   ✅ Deployment using Streamlit
 
 ---
 
 🤖 Models Used
 
-  Logistic Regression
+  - Logistic Regression
   
-  Random Forest
+  - Random Forest
   
-  Decision Tree
+  - Decision Tree
   
-  XGBoost (final chosen model)
+  - XGBoost (final chosen model)
 
 ---
 
 📐 Evaluation Metrics
 
-  Accuracy
+  - Accuracy
   
-  Precision
+  - Precision
   
-  Recall
+  - Recall
   
-  F1-score
+  - F1-score
 
-  SHAP values for explainability
+  - SHAP values for explainability
 
 ---
 
 
 📈 Model Performance
 
-Model	Accuracy	Precision	Recall	F1-Score
-Logistic Regression	0.731	0.828	0.731	0.764
-Random Forest	0.759	0.830	0.759	0.785
-Decision Tree	0.777	0.801	0.777	0.788
-XGBoost (final)	0.792	0.822	0.792	0.804
+| Model                | Accuracy | Precision | Recall | F1-Score |
+|---------------------|:--------:|:---------:|:------:|:-------:|
+| Logistic Regression | 0.731    | 0.828     | 0.731  | 0.764   |
+| Random Forest       | 0.759    | 0.830     | 0.759  | 0.785   |
+| Decision Tree       | 0.777    | 0.801     | 0.777  | 0.788   |
+| **XGBoost (final)** | **0.792**| **0.822** | **0.792**| **0.804** |
 
 ---
 
 🛠️ Technologies Used
 
-  Python (pandas, numpy)
+  - Python (pandas, numpy)
   
-  scikit-learn
+  - scikit-learn
   
-  XGBoost
+  - XGBoost
   
-  imbalanced-learn (SMOTE)
+  - imbalanced-learn (SMOTE)
 
-  TextBlob (sentiment analysis)
+  - TextBlob (sentiment analysis)
   
-  SHAP (explainable AI)
+  - SHAP (explainable AI)
   
-  Streamlit (web app)
+  - Streamlit (web app)
   
-  Matplotlib & Seaborn (visualization)
+  - Matplotlib & Seaborn (visualization)
 
 ---
 
