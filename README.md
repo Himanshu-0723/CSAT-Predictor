@@ -14,18 +14,20 @@ To predict whether a ticket will receive a low CSAT score (≤2, indicating diss
 📂 Project Structure
 ```
 csat-prediction-project/
-│
-├── dataset/
-│   └── flipkart_support_data.csv
-│
+├── images/
+│   ├── chart.png
+│   ├── first.png
+│   ├── shap.png
+|
 ├── models/
 │   ├── xgb.pkl
 │   ├── scaler.pkl
 │   ├── agent_freq.pkl
 │   └── feature_list.json
-│
+|
+├── Customer_support_data.csv
+├── code.ipynb
 ├── app.py
-├── requirements.txt
 └── README.md
 ```
 
