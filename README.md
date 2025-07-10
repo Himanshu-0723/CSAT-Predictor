@@ -39,11 +39,11 @@ csat-prediction-project/
   
   Contains:
   
-    Ticket details: response delay, order date/time, agent shift, channel, category
-    
-    Customer remarks (text)
-    
-    Target variable: CSAT score (1–5)
+  - Ticket details: response delay, order date/time, agent shift, channel, category
+  
+  - Customer remarks (text)
+  
+  - Target variable: CSAT score (1–5)
 
 ---
 
@@ -51,19 +51,19 @@ csat-prediction-project/
 
   Operational features:
   
-    response_delay_minutes, order_dayofweek, order_month, order_hour
-    
-    agent_name_encoded (frequency encoding)
-    
-    is_weekend
+  - response_delay_minutes, order_dayofweek, order_month, order_hour
+  
+  - agent_name_encoded (frequency encoding)
+  
+  - is_weekend
   
   Textual features:
   
-    remark_length (number of words)
-    
-    num_tokens (tokens from customer remarks)
-    
-    sentiment score (from TextBlob)
+  - remark_length (number of words)
+  
+  - num_tokens (tokens from customer remarks)
+  
+  - sentiment score (from TextBlob)
 
 ---
 
@@ -143,15 +143,15 @@ XGBoost (final)	0.792	0.822	0.792	0.804
 
   A user-friendly app to:
   
-    📋 Enter ticket details & customer remarks
-    
-    🔍 Auto-extract text features (length, tokens, sentiment)
-    
-    🎯 Predict likelihood of dissatisfaction
-    
-    🌟 Show feature importance & SHAP explanation
-    
-    🏷️ Display customer tags & recommendations
+  - 📋 Enter ticket details & customer remarks
+  
+  - 🔍 Auto-extract text features (length, tokens, sentiment)
+  
+  - 🎯 Predict likelihood of dissatisfaction
+  
+  - 🌟 Show feature importance & SHAP explanation
+  
+  - 🏷️ Display customer tags & recommendations
 
 ---
 
