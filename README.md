@@ -1,10 +1,12 @@
 📊 CSAT Score Prediction
+
 This project predicts customer satisfaction (CSAT) scores using machine learning and text sentiment analysis.
 It combines operational data (like response delay, order time, agent info) and textual data (customer remarks) to help businesses proactively understand and improve customer experience.
 
 ---
 
 🧠 Objective
+
 To predict whether a ticket will receive a low CSAT score (≤2, indicating dissatisfaction) or a satisfactory score (>2), using historical ticket and chat data.
 
 ---
@@ -30,6 +32,7 @@ csat-prediction-project/
 ---
 
 📁 Dataset
+
   Source: Internal / hypothetical support ticket dataset
   
   Contains:
@@ -63,6 +66,7 @@ csat-prediction-project/
 ---
 
 ⚙️ Workflow
+
   ✅ Data cleaning & preprocessing
   ✅ Feature engineering (sentiment score, time-based buckets)
   ✅ Encoding categorical variables
@@ -77,6 +81,7 @@ csat-prediction-project/
 ---
 
 🤖 Models Used
+
   Logistic Regression
   
   Random Forest
@@ -88,6 +93,7 @@ csat-prediction-project/
 ---
 
 📐 Evaluation Metrics
+
   Accuracy
   
   Precision
@@ -112,6 +118,7 @@ XGBoost (final)	0.792	0.822	0.792	0.804
 ---
 
 🛠️ Technologies Used
+
   Python (pandas, numpy)
   
   scikit-learn
@@ -131,6 +138,7 @@ XGBoost (final)	0.792	0.822	0.792	0.804
 ---
 
 🌐 Streamlit Web App
+
   A user-friendly app to:
   
     📋 Enter ticket details & customer remarks
@@ -145,7 +153,18 @@ XGBoost (final)	0.792	0.822	0.792	0.804
 
 ---
 
+📊 Streamlit App Overview
+
+  ![Demo Input](images/first.png)
+  
+  ![Shap Analysis Chart](images/shap.png)
+  
+  ![Feature Importance Chart](images/chart.png)
+
+---
+
 🚀 Future Work
+
   Allow prediction from just a ticket/order ID (auto-fill all fields)
   
   Improve sentiment analysis for nuanced understanding
