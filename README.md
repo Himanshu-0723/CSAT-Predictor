@@ -87,7 +87,7 @@ csat-prediction-project/
   
   ✅ Model interpretation with SHAP
   
-  ✅ Deployment using Streamlit
+  ✅ WebApp using Streamlit
 
 ---
 
